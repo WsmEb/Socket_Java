@@ -1,4 +1,4 @@
 
-public class MTServerSocket {
+public class MTServerSocket extends Thread {
 
 }
