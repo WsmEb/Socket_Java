@@ -8,7 +8,7 @@ public class test{
 //		new test().Exercise1();
 //		System.out.println( new test().Exercise2(10));
 //		new test().Exercise3();
-		new test().Exercise4(10);
+		new test().Exercise4(540245);
 
 	}
 	
@@ -51,10 +51,12 @@ public class test{
 
    public void Exercise4(int nb) {
 	    String[] Spliting = String.valueOf(nb).split("");
-	    for (int i = Spliting.length - 1;i>=0 ;i--) {
-	    	System.out.print(Spliting[i]);
-	    }
-	    
+	    String Builder = new StringBuilder(String.valueOf(nb)).reverse().toString();
+//	    for (int i = Spliting.length - 1;i>=0 ;i--) {
+//	    	System.out.print(Spliting[i]);
+//	    }
+//	    
+	    System.out.println(Builder);
    }
 }
 
